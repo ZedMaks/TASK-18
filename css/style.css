@@ -30,7 +30,6 @@ img {
   border-radius: 5px;
   text-align: center;
   font-size: 24px; 
-  position: relative;
   display: block;
 }
 .spoiler span {
@@ -38,17 +37,23 @@ img {
   display: block;
   padding: 40px 20px;
 }
-.btn_container{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 .spoiler_container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
 }
-.over_container{
-  display: block;
-  flex-direction: row;
+.newClass{
+  visibility: hidden;
+}
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+.first_container{
+  display: flex;
+  flex-direction: column;
+}
+.second_container{
+  display: flex;
+  flex-direction: column;
 }
